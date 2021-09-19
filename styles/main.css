@@ -1,0 +1,147 @@
+/* CSS Document */
+
+body{
+	align-content: center;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+	letter-spacing: 3px;
+	float: left;
+	clear: none;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+}
+
+.header h1{
+	font-weight: 250;
+	font-size: 95px;
+	letter-spacing: 10px;
+	color: white;
+}
+
+.header h2 {
+	color: #98A8FF;
+	font-weight: 450;
+}
+
+.header h3 {
+	font-size: 30px;
+	color: yellow;
+	font-weight: 450;
+}
+
+#nonblue {
+	filter:blur(0px);
+}
+
+#serverip{}
+
+#serverip h1{
+	background-color: rgba(223,223,223,0.69);
+	color: #262626;
+	font-size: 50px;
+	width = 50%;
+	padding: 30px;
+}
+
+.header {
+	background-image: url("../media/images/demos/demo3.png");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seperator{
+	background-color: #EFEFEF;
+	color: black;
+	padding: 50px;
+	font-size: 35px;
+	font-weight: lighter;
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.seperator h1{
+	font-weight: 400;
+}
+
+.header2 {
+	background-image: url("../media/images/demos/demo4.png");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	display: inline-block;
+}
+
+#topnav{
+	float: left;
+	margin: 0px;
+	background-color: lightgray;
+	color: black;
+	text-decoration: none;
+	opacity: 0.6;
+	position: fixed;
+}
+
+#topnav a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	font-weight: 200;
+	padding: 25px 20px;
+	opacity: 0.8;
+	float: left;
+	
+	display: inline-block;
+}
+
+#topnav a:hover{
+	opacity: 1.0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	background-color: darkslategray;
+	color: white;
+}
+
+#topnav:hover{
+	opacity: 1.0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.header2 h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 60px;
+	letter-spacing: 3px;
+	color: white;
+	font-weight: 300;
+	float: center;
+	background-color: rgba(63,63,63,0.61);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 30px;
+	text-align: center;
+	align-content: center;
+	display: inline-block;
+}
+
+.header2 p {
+	background-color: rgba(217,217,217,0.74);
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 200;
+	float: center;
+	display: block;
+}
